@@ -1,11 +1,12 @@
 " Vim syntax file
-" Language: Oberon
-" Maintainer: Arthur Yefimov <arturefimov@gmail.com>
-" Last Change: 2023 Feb 25
+" Language:    Oberon
+" Maintainer:  Eric Scharff <eric.scharff@gmail.com>
+" Last Change: 2026 Feb 5
 
 " To use this file, add this to your .vimrc:
 "   au BufNewFile,BufRead *.Mod set filetype=oberon
 "   au BufNewFile,BufRead *.cp set filetype=oberon
+"   au BufNewFile,BufRead *.ob set filetype=oberon
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -20,11 +21,11 @@ syn keyword OberonStatement   BEGIN END CODE
 syn keyword OberonModule      MODULE
 syn keyword OberonInclude     IMPORT SYSTEM
 syn keyword OberonConditional IN IS = # < <= > >= IF THEN ELSE ELSIF CASE
-syn keyword OberonOperator    MOD DIV OR / * + - & ~
+syn keyword OberonOperator    MOD DIV OR / * + - & ~ BITAND BITOR BITXOR
 syn keyword OberonStatement   := WITH DO TO BY OF
 syn keyword OberonRepeat      FOR WHILE REPEAT UNTIL LOOP
 syn keyword OberonProcedure   PROCEDURE
-syn keyword OberonFunction    ABS ODD CAP LSL ASR ASH ROR LEN MIN MAX SIZE ORD CHR ENTIER FLOOR FLT INC DEC INCL EXCL COPY NEW HALT ASSERT PACK UNPK LONG SHORT
+syn keyword OberonFunction    ABS ODD CAP LSL ASR ASH ROR LEN MIN MAX SIZE ORD CHR ENTIER FLOOR FLT INC DEC INCL EXCL COPY NEW HALT ASSERT PACK UNPK LONG SHORT PUSH
 syn keyword OberonType        INTEGER CHAR LONGINT SHORTINT BOOLEAN REAL LONGREAL SET TINYINT BYTE HUGEINT SHORTCHAR LONGCHAR
 syn keyword OberonDeclaration CONST VAR TYPE
 syn keyword OberonTypedef     POINTER ARRAY RECORD EXTENSIBLE LIMITED ABSTRACT
