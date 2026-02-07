@@ -3,7 +3,7 @@
 This repository provides very basic syntax highlighting for the Oberon
 programming language.
 
-## Installation
+# Installation
 
 This should be usable with most vim plugin managers. I use
 [vim-plug](https://junegunn.github.io/vim-plug/) but others should potentially
@@ -16,7 +16,7 @@ Plug 'ericscharff/vim-oberon'
 call plug#end()
 ```
 
-## Usage
+# Usage
 
 The syntax highlighting can be enabled by setting the correct file type, e.g.
 
@@ -25,3 +25,8 @@ au BufNewFile,BufRead *.Mod set filetype=oberon
 au BufNewFile,BufRead *.ob set filetype=oberon
 ```
 
+# Related Projects
+
+I use this for synatx highlighting for
+[my Oberon compiler](https://github.com/ericscharff/oberon-compiler) which is a
+self-hosting Oberon compiler.
