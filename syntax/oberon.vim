@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:    Oberon
 " Maintainer:  Eric Scharff <eric.scharff@gmail.com>
-" Last Change: 2026 Feb 5
+" Last Change: 2026 Feb 7
 
 " To use this file, add this to your .vimrc:
 "   au BufNewFile,BufRead *.Mod set filetype=oberon
@@ -25,12 +25,12 @@ syn keyword OberonOperator    MOD DIV OR / * + - & ~ BITAND BITOR BITXOR
 syn keyword OberonStatement   := WITH DO TO BY OF
 syn keyword OberonRepeat      FOR WHILE REPEAT UNTIL LOOP
 syn keyword OberonProcedure   PROCEDURE
-syn keyword OberonFunction    ABS ODD CAP LSL ASR ASH ROR LEN MIN MAX SIZE ORD CHR ENTIER FLOOR FLT INC DEC INCL EXCL COPY NEW HALT ASSERT PACK UNPK LONG SHORT PUSH
+syn keyword OberonFunction    ABS ODD CAP LSL ASR ASH ROR LEN MIN MAX SIZE ORD CHR ENTIER FLOOR FLT INC DEC INCL EXCL COPY NEW HALT ASSERT PACK UNPK LONG SHORT PUSH NEW_ARRAY
 syn keyword OberonType        INTEGER CHAR LONGINT SHORTINT BOOLEAN REAL LONGREAL SET TINYINT BYTE HUGEINT SHORTCHAR LONGCHAR
 syn keyword OberonDeclaration CONST VAR TYPE
 syn keyword OberonTypedef     POINTER ARRAY RECORD EXTENSIBLE LIMITED ABSTRACT
 syn keyword OberonBoolean     TRUE FALSE
-syn keyword OberonKeyword     RETURN EXIT NIL
+syn keyword OberonKeyword     RETURN EXIT NIL NATIVE
 
 " Words that are marked inside comments
 syn keyword OberonTodo         contained TODO FIXME DEBUG
