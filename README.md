@@ -25,6 +25,16 @@ au BufNewFile,BufRead *.Mod set filetype=oberon
 au BufNewFile,BufRead *.ob set filetype=oberon
 ```
 
+Or for neovim `init.lua`:
+
+```
+vim.filetype.add({
+  extension = {
+    ob = 'oberon',
+  },
+})
+```
+
 # Related Projects
 
 I use this for synatx highlighting for
