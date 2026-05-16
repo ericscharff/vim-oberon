@@ -16,6 +16,15 @@ Plug 'ericscharff/vim-oberon'
 call plug#end()
 ```
 
+Or, for lazy.vim, it can be configured with
+
+```
+{
+  "ericscharff/vim-oberon",
+  ft = "oberon"
+}
+```
+
 # Usage
 
 The syntax highlighting can be enabled by setting the correct file type, e.g.
