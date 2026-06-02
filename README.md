@@ -16,6 +16,13 @@ Plug 'ericscharff/vim-oberon'
 call plug#end()
 ```
 
+With nvim builtin vim-pack, this can be
+```
+vim.pack.add({
+  'https://github.com/ericscharff/vim-oberon',
+})
+```
+
 Or, for lazy.vim, it can be configured with
 
 ```
