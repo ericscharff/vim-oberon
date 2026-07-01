@@ -16,7 +16,7 @@ Plug 'ericscharff/vim-oberon'
 call plug#end()
 ```
 
-With nvim builtin vim-pack, this can be
+With Neovim's builtin vim-pack, this can be
 ```
 vim.pack.add({
   'https://github.com/ericscharff/vim-oberon',
