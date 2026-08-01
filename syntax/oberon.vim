@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:    Oberon
 " Maintainer:  Eric Scharff <eric.scharff@gmail.com>
-" Last Change: 2026 Feb 8
+" Last Change: 2026 Feb 7
 
 " To use this file, add this to your .vimrc:
 "   au BufNewFile,BufRead *.Mod set filetype=oberon
